@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp3.1;net50</TargetFrameworks>
+
+    <IsPackable>false</IsPackable>
+
+    <UserSecretsId>42da9242-b21a-49c8-8e52-5ee8edecf2cb</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.6" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="3.1.0" />
+    <PackageReference Include="NUnit" Version="3.13.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="Shouldly" Version="3.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Roughcut.DataMartServices.Core\Roughcut.DataMartServices.Core.csproj" />
+    <ProjectReference Include="..\..\src\Roughcut.DataMartServices.Infrastructure\Roughcut.DataMartServices.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Functional\" />
+    <Folder Include="Unit\" />
+  </ItemGroup>
+
+</Project>

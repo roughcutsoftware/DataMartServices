@@ -1,0 +1,23 @@
+﻿https://www.nuget.org/packages/Microsoft.NET.Test.Sdk/16.5.0
+Install-Package Microsoft.NET.Test.Sdk -Version 16.5.0
+dotnet add package Microsoft.NET.Test.Sdk --version 16.5.0
+
+https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/3.1.6
+Install-Package Microsoft.EntityFrameworkCore.SqlServer -Version 3.1.6
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 3.1.6
+
+https://www.nuget.org/packages/Shouldly/3.0.2
+Install-Package Shouldly -Version 3.0.2
+dotnet add package Shouldly --version 3.0.2
+
+https://www.nuget.org/packages/NUnit/3.13.1
+Install-Package NUnit -Version 3.13.1
+dotnet add package NUnit --version 3.13.1
+
+https://www.nuget.org/packages/NUnit3TestAdapter/3.17.0
+Install-Package NUnit3TestAdapter -Version 3.17.0
+dotnet add package NUnit3TestAdapter --version 3.17.0
+
+https://www.nuget.org/packages/Microsoft.Extensions.Configuration.UserSecrets/3.1.0
+Install-Package Microsoft.Extensions.Configuration.UserSecrets -Version 3.1.0
+dotnet add package Microsoft.Extensions.Configuration.UserSecrets --version 3.1.0
